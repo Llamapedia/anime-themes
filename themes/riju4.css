@@ -2,7 +2,7 @@ body::after {
     content: '';
     background: #bbb no-repeat center center fixed;
     background-image: url('/themes/background-riju4.png');
-    background-size: cover;
+    background-size: contain;
     position: fixed;
     top: 0;
     left: 0;

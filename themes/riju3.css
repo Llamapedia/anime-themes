@@ -1,14 +1,20 @@
 body::after {
     content: '';
-    background: #bbb no-repeat center center fixed;
+    background: #ab804f no-repeat center center fixed;
     background-image: url('/themes/background-riju3.png');
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
+    mask-image: radial-gradient(circle, white 100%, black 90%);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-mode: alpha;
 }
 
 .navbar {
